@@ -30,17 +30,44 @@
       padding: 35px;
       border-radius: 20px;
       text-align: center;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     }
 
     h1 {
       color: #173b5f;
       margin-bottom: 8px;
+      font-size: 30px;
     }
 
     .subtitle {
       color: #666;
-      margin-bottom: 30px;
+      margin-bottom: 18px;
+      line-height: 1.5;
+    }
+
+    .description {
+      color: #666;
+      font-size: 14px;
+      line-height: 1.6;
+      margin: 0 auto 15px;
+      max-width: 480px;
+    }
+
+    .instruction {
+      color: #173b5f;
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 22px;
+    }
+
+    .section {
+      margin-top: 25px;
+      margin-bottom: 10px;
+      text-align: left;
+      font-size: 14px;
+      color: #777;
+      font-weight: bold;
+      text-transform: uppercase;
     }
 
     .link {
@@ -60,20 +87,32 @@
       background: #dfeefb;
     }
 
-    .section {
-      margin-top: 25px;
-      margin-bottom: 10px;
-      text-align: left;
-      font-size: 14px;
-      color: #777;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-
     footer {
       margin-top: 25px;
       font-size: 12px;
       color: #999;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 15px;
+      }
+
+      .container {
+        padding: 28px 20px;
+      }
+
+      h1 {
+        font-size: 25px;
+      }
+
+      .description {
+        font-size: 13px;
+      }
+
+      .link {
+        padding: 14px;
+      }
     }
   </style>
 </head>
@@ -85,11 +124,22 @@
     <h1>SAHKAAR SETU</h1>
 
     <p class="subtitle">
-      Cooperative AI-Based Public Service Platform
+      Official Project Repository &amp; Live Demo Hub
+    </p>
+
+    <p class="description">
+      Access the official project repositories and live demos
+      for the Citizen, Admin, and Kiosk platforms.
+    </p>
+
+    <p class="instruction">
+      👆 Tap any link below to explore the project
     </p>
 
     <!-- GitHub Repositories -->
-    <div class="section">Project Repositories</div>
+    <div class="section">
+      Project Repositories
+    </div>
 
     <a class="link"
        href="https://github.com/Pranavkedar87/SIH26088-Cooperative-AI"
@@ -105,15 +155,17 @@
       ⚙️ Admin Side — GitHub
     </a>
 
-   <a class="link"
-   href="https://github.com/Pranavkedar87/SahkaarSetu-Kiosk-"
-   target="_blank"
-   rel="noopener noreferrer">
-  🖥️ Kiosk — GitHub
-  </a>
+    <a class="link"
+       href="https://github.com/Pranavkedar87/SahkaarSetu-Kiosk-"
+       target="_blank"
+       rel="noopener noreferrer">
+      🖥️ Kiosk — GitHub
+    </a>
 
     <!-- Live Demos -->
-    <div class="section">Live Demos</div>
+    <div class="section">
+      Live Demos
+    </div>
 
     <a class="link"
        href="https://pranavkedar87.github.io/SIH26088-Cooperative-AI/"
